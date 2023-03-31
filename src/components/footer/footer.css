@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+.footer {
+  background-image: url("../../assets/images/footerBg2.png"),
+    url("../../assets/images/footerBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 350px !important;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 40px; */
+}
+.footer .footerCon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerLinks,
+.footerInfo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.footerLinks a,
+.footerInfo {
+  font-family: Montserrat;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 22px;
+}
+.footerLinks a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .footer .footerCon {
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+    padding: 40px 0;
+  }
+  .footer {
+    margin-bottom: 0;
+  }
+}
+
+.tel {
+  display: flex;
+  column-gap: 30px;
+}
+.tel .telNums {
+  display: flex;
+  flex-direction: column;
+}
+.tel span,
+.mail span {
+  color: #cebd88;
+}
+.mail span {
+  margin-right: 24px;
+}
+.to-top {
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #28364b;
+  color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  border: 1px solid #fff;
+  transition: all 0.4s;
+}
+
+.to-top.active {
+  bottom: 16px;
+  pointer-events: auto;
+  opacity: 1;
+}

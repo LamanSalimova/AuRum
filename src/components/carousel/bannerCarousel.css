@@ -1,0 +1,54 @@
+.carouselBox {
+  margin-top: 120px;
+}
+.carouselBox .carousel {
+}
+.carouselBox .carousel .carouselItem {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3,
+p {
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.readMore {
+  display: inline-block;
+  padding: 10px 60px;
+  border: none;
+  outline: 2px solid #cebd88;
+  outline-offset: 2px;
+  color: #fff;
+  background: #cebd88;
+  margin-bottom: 60px;
+  cursor: pointer;
+  margin-top: 30px !important;
+}
+.carousel-indicators button {
+  position: relative;
+  width: 20px !important;
+  height: 1px !important;
+  background: #cebd88 !important;
+  border-radius: 50% !important;
+  margin: 0 5px !important;
+}
+.carousel-indicators .active::after {
+  content: "" !important;
+  position: absolute !important;
+  left: -12.4px !important;
+  top: -12px !important;
+  width: 26px !important;
+  height: 26px !important;
+  border: 1px solid #cebd88;
+  border-radius: 50% !important;
+  margin: 0 10px !important;
+}
+@media only screen and (max-width: 600px) {
+  .carouselBox {
+    margin-top: 40px;
+  }
+}

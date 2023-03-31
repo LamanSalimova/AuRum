@@ -1,0 +1,58 @@
+.services {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../assets/images/rectangle.png"),
+    url("../../assets/images/servicesBg.png");
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+.services .servicesInfo h2,
+.serviceCardHeading {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.13px;
+  font-family: Montserrat;
+  position: relative;
+}
+.services .servicesInfo .vector,
+.serviceCardSection .vector {
+  margin-left: 20px;
+}
+.services .servicesInfo h2::before {
+  content: "Niyə biz?";
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  font-family: Dancing Script;
+  color: #cebd88;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.services .servicesInfo p {
+  width: 100%;
+  height: 230px;
+  text-align: start;
+  line-height: 26px;
+  font-size: 14px;
+  color: #000000;
+  font-family: Montserrat;
+}
+.services .imgBox {
+  margin-top: 40px;
+}
+.services .imgBox img {
+  width: 100%;
+  height: 100%;
+}
+.services .imgBox {
+  outline: 2px solid #cebd88;
+  outline-offset: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .services .imgBox {
+    margin-top: 100px;
+  }
+}

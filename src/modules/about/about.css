@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Dancing+Script:wght@400;600;700&family=Inter:wght@100;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Dancing+Script:wght@400;600;700&family=Inter:wght@100;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Inter:wght@100;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+.serviceStaticsCon {
+  background-image: url("../../../assets/images/countupBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.staticsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  padding-bottom: 75px;
+}
+.staticsBox h5 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #28364b;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.staticsBox p {
+  width: 80%;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+}
+.countUp {
+  font-family: "Cinzel", serif;
+  font-size: 120px;
+  line-height: 162px;
+  color: #cebd88;
+}
+
+.services-about {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../assets/images/rectangle.png"),
+    url("../../assets/images/servicesBg.png");
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+.services-about .servicesInfo h2,
+.serviceCardHeading {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.13px;
+  font-family: Montserrat;
+  position: relative;
+}
+.services-about .servicesInfo .vector,
+.serviceCardSection .vector {
+  margin-left: 20px;
+}
+.services-about .servicesInfo h2::before {
+  content: "Biz kimik?";
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  font-family: Dancing Script;
+  color: #cebd88;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.services-about .servicesInfo p {
+  width: 100%;
+  height: 230px;
+  text-align: start;
+  line-height: 26px;
+  font-size: 14px;
+  color: #000000;
+  font-family: Montserrat;
+}
+.services-about .imgBox {
+  margin-top: 40px;
+}
+.services-about .imgBox img {
+  width: 100%;
+  height: 100%;
+}
+.services-about .imgBox {
+  outline: 2px solid #cebd88;
+  outline-offset: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .services-about .imgBox {
+    margin-top: 100px;
+  }
+}
+.serviceCardSection {
+  margin-top: 60px;
+  padding-top: 60px;
+}
+.services-about .serviceCardSection .serviceCardHeading::before {
+  content: "Missiyamız";
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  font-family: Dancing Script;
+  color: #cebd88;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.card {
+  width: 90% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 40px !important;
+  border-radius: 0 !important;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.slider {
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+.card .cardImg {
+  width: 90%;
+  margin-top: 20px;
+}
+.card .cardInfo,
+.card .cardBtn {
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+.card .cardBtn {
+  padding: 10px 60px;
+  border: none;
+  border-radius: 0;
+  outline: 2px solid #cebd88;
+  outline-offset: 2px;
+  color: #fff;
+  background: #cebd88 !important;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+.card .cardText {
+  width: 90%;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: Montserrat;
+  color: #000000;
+}
+.ceoSection {
+  padding: 60px 0;
+  background-color: #f5f2e7;
+  background-image: url("../../assets/images/ceoBg2.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+.ceoSection .ceoImgCon {
+  background: #cebd8854;
+  padding: 20px;
+}
+.ceoSection .ceoImgCon img {
+  max-width: 100%;
+}
+.ceoSection .ceoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.ceoHeading {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 40px 0;
+}
+.ceoHeading h2 {
+  font-size: 28px;
+  line-height: 34px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #000000;
+}
+.ceoHeading p {
+  text-align: start;
+  width: 100%;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: Montserrat;
+  color: #000000;
+}
+@media only screen and (max-width: 600px) {
+  .ceoSection .ceoContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .ceoHeading p {
+    min-width: 360px;
+  }
+}

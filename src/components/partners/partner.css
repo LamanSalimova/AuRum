@@ -1,0 +1,17 @@
+.partnerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+button.slick-prev,
+button.slick-next {
+  display: none !important;
+}
+@media only screen and (max-width: 600px) {
+  .slider div {
+    margin: 0 auto !important;
+  }
+}

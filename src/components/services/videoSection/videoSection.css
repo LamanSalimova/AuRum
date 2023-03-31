@@ -1,0 +1,79 @@
+.videoSection {
+  background-image: url("../../../assets/images/videoSecBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 66px 0;
+}
+.videoSection .videoInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-z;
+}
+.imgCon {
+  width: 660px;
+  height: 420px;
+}
+.imgCon img {
+  width: 100%;
+  height: 100%;
+}
+.videoSection .videoInfo h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: Montserrat;
+  margin-top: 66px;
+}
+.videoSection .videoInfo .vector {
+  margin-left: 20px;
+  width: 70px;
+}
+.videoSection .videoInfo p {
+  width: 100%;
+  text-align: start;
+  line-height: 28px;
+  font-size: 14px;
+  color: ##ffffff;
+  margin: 20px 0;
+  font-family: Montserrat;
+}
+.videoSection .btn {
+  padding: 10px 60px;
+  width: 160px;
+  border: none;
+  border-radius: 0;
+  outline: 2px solid #cebd88;
+  outline-offset: 2px;
+  color: #fff !important;
+  background: #cebd88 !important;
+  cursor: pointer;
+}
+.videoSection .imgBox {
+  margin-top: 40px;
+}
+.videoSection .imgBox img {
+  width: 100%;
+  height: 100%;
+}
+.shipImg {
+  position: relative;
+}
+.group {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.group img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .videoSection .imgBox {
+    margin-top: 100px;
+  }
+}

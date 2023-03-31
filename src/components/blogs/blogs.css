@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Inter:wght@100;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+.homeblogs {
+  background-image: url("../../assets/images/blogsBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+}
+.homeblogs .blogSection .blogHeading {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.13px;
+  font-family: Montserrat;
+  position: relative;
+}
+.vector {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.blogSection h2::before {
+  content: "Blog";
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  font-family: Dancing Script;
+  color: #cebd88;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.blogs .blogItem {
+  gap: 30px;
+}
+.blogs .blogItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px !important;
+}
+.blogItem .blogInfo {
+  display: inline-block;
+  text-align: start;
+  line-height: 25px;
+  font-size: 16px;
+  color: #28364b;
+  font-family: Montserrat;
+}
+.blogItem .imgBox {
+  width: 100%;
+  height: 275px;
+  padding: 15px;
+  background-color: #e8e1c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogItem .imgBox img {
+  width: 100%;
+  height: 100%;
+}
+.blogItem .blogItemDate {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  margin-top: 10px;
+}
+.blogItem .blogItemDate span {
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  font-family: Montserrat;
+}
+.blogInfo {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #28364b;
+  font-family: Montserrat;
+  margin: 10px 0;
+  width: 90%;
+}
+.homeblogs .blogDetails {
+  display: flex;
+  column-gap: 20px;
+}
+.homeblogs .blogDetails {
+  background: transparent;
+  padding: 0;
+}
+.homeblogs .blogDetails div {
+  display: flex;
+  column-gap: 10px;
+}
+.blogDetails img {
+  object-fit: contain;
+}
+.slider {
+  width: 95% !important;
+  margin: 0 auto;
+}
+.blogItem {
+  width: 20% !important;
+}
+@media only screen and (max-width: 600px) {
+  .blogItem {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}

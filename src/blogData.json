@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "blogImg1",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 2,
+    "imgUrl": "blogImg2",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 3,
+    "imgUrl": "blogImg3",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 4,
+    "imgUrl": "blogImg4",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 5,
+    "imgUrl": "blogImg5",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 6,
+    "imgUrl": "blogImg6",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 7,
+    "imgUrl": "blogImg7",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 8,
+    "imgUrl": "blogImg8",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 9,
+    "imgUrl": "blogImg9",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 10,
+    "imgUrl": "blogImg10",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 11,
+    "imgUrl": "blogImg11",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  },
+  {
+    "id": 12,
+    "imgUrl": "blogImg12",
+    "blogTitle": "Lorem Ipsum is simply dummy text",
+    "blogInfo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+    "blogDate": "21.01.2023"
+  }
+]

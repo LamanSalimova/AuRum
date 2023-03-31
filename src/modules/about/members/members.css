@@ -1,0 +1,33 @@
+.members {
+  background-color: #cebd8833;
+  padding: 60px 0;
+}
+
+.members .memberCard {
+  background: transparent;
+  border: none;
+}
+.members .memberCard .cardImg {
+  background: #cebd888c;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+.members .memberCard .cardImg img {
+  object-fit: contain;
+}
+.members .memberCard .cardTitle {
+  display: block;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.members .memberCard .cardText {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}

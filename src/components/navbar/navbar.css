@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+nav ul {
+  width: 90%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a,
+.routerLink {
+  font-family: Montserrat;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.94px;
+  color: #fff !important;
+}
+nav ul li a:hover {
+  color: #cebd88 !important;
+  transition: 0.5s;
+}
+.routerLink:hover {
+  color: #cebd88 !important;
+  transition: 0.5s;
+}
+nav a.active {
+  color: #cebd88 !important;
+  position: relative;
+}
+nav a.active::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  background: #cebd88;
+  position: absolute;
+  bottom: -20px;
+  left: -1px;
+}
+nav {
+  border-bottom: 3px solid #fff;
+}
+nav .dropDownMenu {
+  position: relative;
+}
+nav .dropDownMenu:hover .dropDownList {
+  display: block;
+  transition: 1s;
+}
+nav .dropDownList {
+  position: absolute;
+  left: -20px;
+  top: 24px;
+  background: gray;
+  padding: 10px 0;
+  width: 150px;
+  text-align: center;
+  border-radius: 4px;
+  display: none;
+}
+nav .dropDownList li {
+  padding: 10px 0;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.hamburger {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  z-index: 5;
+}
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  nav {
+    border-bottom: 0px;
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #29364b;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 5;
+    transition: 0.4s;
+  }
+  nav ul li a {
+    font-size: 24px;
+  }
+  nav a.active {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+.active {
+  left: 0;
+}

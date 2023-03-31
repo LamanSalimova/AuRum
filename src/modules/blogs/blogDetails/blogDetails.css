@@ -1,0 +1,296 @@
+.blogDetails {
+  padding: 80px 0;
+  width: 100%;
+  height: auto;
+  background-image: url("../../../assets/images/rectangle.png"),
+    url("../../../assets/images/servicesBg.png"),
+    url("../../../assets/images/agencyGroup.png");
+  background-position: center, top, -5% 93%;
+  background-repeat: no-repeat;
+}
+
+.blogDetails .gridCon {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gridCon .gridCol1 p {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: start;
+  margin-top: 10px;
+  text-align: start;
+  width: 100%;
+}
+.gridCon .gridCol1 h4 {
+  color: #28364b;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-top: 98px;
+}
+.gridCon .gridCol1 .dateDetailBox {
+  display: flex;
+  column-gap: 10px;
+}
+.gridCol2 {
+  display: flex;
+  flex-direction: column;
+}
+.gridCol2 h6 {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #28364b;
+}
+.gridCol2 img.vector {
+  width: 100px;
+}
+.gridCol2 .asideGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-gap: 20px;
+  width: 100%;
+  min-height: 250px;
+}
+.gridCol2 .asideGrid .asideImg {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+.gridCol2 .asideGrid .asideImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.gridCol2 .asideGrid .asideInfo h5 {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #303030;
+  margin: 10px 0;
+}
+.asideGrid .asideInfo p {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: start;
+  margin-top: 10px;
+  text-align: start;
+  width: 100%;
+  color: black;
+}
+.asideGrid .asideInfo .dateReadMore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.asideGrid .asideInfo .dateReadMore .dateIcon {
+  color: #cebd88;
+  margin-right: 5px;
+}
+.asideGrid .asideInfo .dateReadMore span,
+.asideGrid .dateReadMore .readMoreLink {
+  color: #5c5b5b;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+.asideGrid .asideInfo .dateReadMore .readMoreLink {
+  color: #28364b;
+}
+
+.col1Img {
+  width: 100%;
+  max-height: 460px;
+}
+.col1Img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* .blogDetails {
+    background: red;
+  } */
+  .blogDetails .gridCon {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .gridCol2 .asideGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .gridCon .gridCol1 h4 {
+    margin-top: 18px;
+  }
+  .gridCol2 .newsflex {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .newsDateSwiper {
+    width: 350px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* .blogDetails {
+    background: green;
+  } */
+  .blogDetails .gridCon {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* .blogDetails {
+    background: blue;
+  } */
+  .blogDetails .gridCon {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .gridCon .gridCol1 h4 {
+    margin-top: 250px;
+  }
+  .gridCol2 .asideGrid .asideImg img {
+    width: 100%;
+    height: 200px;
+  }
+  .newsDateSwiper {
+    width: 100%;
+  }
+  .blogDetails {
+    padding: 80px 0;
+    width: 100%;
+    height: auto;
+    background-image: url("../../../assets/images/rectangle.png"),
+      url("../../../assets/images/servicesBg.png");
+    /* url("../../../assets/images/agencyGroup.png"); */
+    background-position: center, top, -5% 93%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .blogDetails {
+    background: orange;
+  } */
+  .blogDetails .gridCon {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .gridCon .gridCol1 h4 {
+    margin-top: 500px;
+  }
+  .gridCol2 .asideGrid {
+    grid-gap: 0;
+  }
+  .gridCol2 .asideGrid .asideImg img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .blogDetails .gridCon {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gridCol2 .asideGrid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 20px;
+    width: 100%;
+    min-height: 250px;
+  }
+  .gridCon .gridCol1 h4 {
+    color: #28364b;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 98px;
+  }
+}
+
+.gridCol2 .newsflex {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.gridCol2 .newsflex .newsDateBox {
+  display: flex;
+}
+.gridCol2 .newsflex .newsDateBox .newsDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  color: #3e4f69;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 20px;
+  background: #fff;
+}
+.gridCol2 .newsflex .newsDateBox .selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 50px;
+  background: #3e4f69;
+}
+.gridCol2 .newsflex .newsDateBox .selection .defaultDate {
+  margin-right: 10px;
+}
+
+.newsDateSwiper {
+  max-width: 540px;
+  height: 60px;
+  background: #cebd88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  color: #ffffff;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+.newsDateSwiper .month {
+  color: #545454;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.active {
+  color: blue !important;
+}
